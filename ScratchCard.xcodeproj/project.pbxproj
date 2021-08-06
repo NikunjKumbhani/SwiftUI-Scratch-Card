@@ -14,7 +14,8 @@
 		81EE474226B80356003E1F1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81EE474126B80356003E1F1B /* Preview Assets.xcassets */; };
 		81EE474526B80356003E1F1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81EE474326B80356003E1F1B /* LaunchScreen.storyboard */; };
 		81EE474E26B80671003E1F1B /* ScratchCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EE474D26B80671003E1F1B /* ScratchCard.swift */; };
-		81F6FD9A26BCF76500C9816C /* ScratchCard.mov in Resources */ = {isa = PBXBuildFile; fileRef = 81F6FD9926BCF76500C9816C /* ScratchCard.mov */; };
+		81F6FD9C26BCF8C500C9816C /* ScratchCard.gif in Resources */ = {isa = PBXBuildFile; fileRef = 81F6FD9B26BCF8C500C9816C /* ScratchCard.gif */; };
+		81F6FD9E26BCFADA00C9816C /* ScratchCard.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81F6FD9D26BCFADA00C9816C /* ScratchCard.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +28,8 @@
 		81EE474426B80356003E1F1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81EE474626B80356003E1F1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81EE474D26B80671003E1F1B /* ScratchCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchCard.swift; sourceTree = "<group>"; };
-		81F6FD9926BCF76500C9816C /* ScratchCard.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = ScratchCard.mov; sourceTree = "<group>"; };
+		81F6FD9B26BCF8C500C9816C /* ScratchCard.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ScratchCard.gif; sourceTree = "<group>"; };
+		81F6FD9D26BCFADA00C9816C /* ScratchCard.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ScratchCard.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +46,8 @@
 		81979ECB26BBA60300CDCC17 /* Output */ = {
 			isa = PBXGroup;
 			children = (
-				81F6FD9926BCF76500C9816C /* ScratchCard.mov */,
+				81F6FD9D26BCFADA00C9816C /* ScratchCard.mp4 */,
+				81F6FD9B26BCF8C500C9816C /* ScratchCard.gif */,
 			);
 			path = Output;
 			sourceTree = "<group>";
@@ -154,8 +157,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81F6FD9E26BCFADA00C9816C /* ScratchCard.mp4 in Resources */,
 				81EE474526B80356003E1F1B /* LaunchScreen.storyboard in Resources */,
-				81F6FD9A26BCF76500C9816C /* ScratchCard.mov in Resources */,
+				81F6FD9C26BCF8C500C9816C /* ScratchCard.gif in Resources */,
 				81EE474226B80356003E1F1B /* Preview Assets.xcassets in Resources */,
 				81EE473F26B80355003E1F1B /* Assets.xcassets in Resources */,
 			);
